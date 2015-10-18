@@ -1,0 +1,82 @@
+/* common css */
+*{
+	box-sizing:border-box;
+}
+
+body {
+	margin: 0;
+	font: 15px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+	color: #555;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+
+
+/* project css */
+
+.header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #00b0b8;
+}
+
+.header .logo {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: fixed;
+	margin-left: -30px;
+	text-align: center;
+	left: 50%;
+	top: 10px;
+	font-size: 35px;
+	color: #fff;
+	background: #00c4cc;
+	box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.post-title{
+	font-weight: normal;
+	text-align: center;
+	color: #eb3170;
+	margin: 10px 0;
+}
+
+.blog-wrapper{
+	margin-top: 40px;
+	margin: 30px auto;
+	padding: 30px;
+	width: 660px;
+}
+
+.post-img{
+	max-width: 100%;
+	display: block;
+	margin: 30px auto;
+}
+
+.banner-page{
+	height: 450px;
+	background: url("./img/psb2.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
